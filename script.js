@@ -13,7 +13,7 @@ const hourHand = document.querySelector('.hour-hand');
 
     const mins = now.getMinutes();
     const secondDegrees = ((mins/60)*360)+90;
-    hourHand.style.transform =`rotate(${minsDegrees}deg)`;
+    minsHand.style.transform =`rotate(${minsDegrees}deg)`;
 
     const hour = now.getMinutes();
     const hourDegrees = ((hour/12)*360)+90;
