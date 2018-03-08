@@ -26,7 +26,6 @@ body{
 .hand {
     width: 50%;
     height: 6px;
-    background: black;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
@@ -35,11 +34,11 @@ body{
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .hour-hand{
-    color: red;
+    background-color: red;
 }
 .min-hand{
-    color-interpolation: orange;
+    background-color: orange;
 }
 .second-hand{
-    color: yellow;
+    background-color: yellow;
 }
